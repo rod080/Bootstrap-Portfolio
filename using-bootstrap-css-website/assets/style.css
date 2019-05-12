@@ -1,18 +1,30 @@
 
 
-
-#imageText{
-float: left;
-height:90px;
-width:60px
-}
-
-.image-thumbnail{
-height:30%;
-width:30%:
+#imageText {
+    float: left;
 }
 
 .img-thumbnail {
     height: 30%;
     width: 30%;
 }
+
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
